@@ -5,7 +5,7 @@
 int main(void)
 	/**
 	 * main Entry - point
-	 * return result 
+	 * return result
 	 */
 {
 
