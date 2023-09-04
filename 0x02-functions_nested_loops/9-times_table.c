@@ -1,11 +1,13 @@
+/*
+ * File: 9-times_table.c
+ * Auth: Brennan D Baraban
+ */
 
-#include "main.h"
+#include "holberton.h"
 
-
-	/**
-	 * times_table - prints the 9 times table, starting with 0
-	 * This function prints the 9 times table, starting with 0.
-	 */
+/**
+ * times_table - Prints the 9 times table, starting with 0.
+ */
 	void times_table(void)
 	{
 		int i, j, k;
