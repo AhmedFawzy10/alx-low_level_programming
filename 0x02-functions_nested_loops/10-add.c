@@ -1,14 +1,11 @@
 #include "main.h"
-/*
- * File: 10-add.c
- * Auth: Brennan D Baraban
- */
+/**
+* add - Adds two integers.
+* @a: The first integer to be added.
+* @b: The second integer to be added.
+* Return: The result of the addition.
+*/
 int add(int a, int b)
 {
-int sum;
-sum = a + b;
-_putchar(sum / 10 + '0');
-_putchar(sum % 10 + '0');
-_putchar('\n');
-return (sum);
+return (a + b);
 }
